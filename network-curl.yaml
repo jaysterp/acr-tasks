@@ -4,4 +4,4 @@ steps:
     cmd: nginx
     detach: true
   - build: -t curl -f curl.dockerfile .
-  - cmd: curl --url http://nginx
+  - cmd: curl --url https://devdivdemo.azurewebsites.net
